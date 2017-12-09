@@ -234,6 +234,7 @@ abstract class Entity extends Location implements Metadatable, EntityIds{
 		Entity::registerEntity(Squid::class, false, ['Squid', 'minecraft:squid']);
 		Entity::registerEntity(Villager::class, false, ['Villager',	'minecraft:villager']);
 		Entity::registerEntity(Zombie::class, false, ['Zombie',	'minecraft:zombie']);
+		Entity::registerEntity(Skeleton::class, false, ['Skeleton', 'minecraft:skeleton']);
 
 		Entity::registerEntity(Human::class, true);
 	}
